@@ -1,0 +1,43 @@
+#todo_container {
+  background-color: white;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#header_text {
+  color: #112d4e;
+  font-family: Ubuntu;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0em;
+}
+
+#input_container {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 32px;
+  top: 132.6px;
+  left: 573.21px;
+  border-radius: 5px;
+  border: 1px solid #b1b1b1;
+}
+
+input[type="checkbox"] {
+}
+
+.TodoList {
+  display: inline-flex;
+  justify-content: center;
+  background: #dbe2ef;
+  width: 80%;
+  margin-top: 5%;
+  align-self: center;
+}
