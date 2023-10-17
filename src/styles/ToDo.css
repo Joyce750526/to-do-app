@@ -31,12 +31,20 @@ input[type="text"] {
 }
 
 input[type="checkbox"] {
+  /* width: 10px;
+  height: 10px; */
+  top: 132.6px;
+  left: 573.21px;
+  justify-content: left;
+  border-radius: 5px;
+  border: 1px solid #b1b1b1;
 }
 
 .TodoList {
   display: inline-flex;
   justify-content: center;
   background: #dbe2ef;
+  border-radius: 10px;
   width: 80%;
   margin-top: 5%;
   align-self: center;
